@@ -1,0 +1,20 @@
+body{
+    background-image: url("rasimlar/kfs2.jpg");
+}
+.box{
+    color: #703333;
+}
+.big{
+    position: relative;
+    left: 40px;
+}
+.kom{
+    width: 1200px;
+    height: 500px;
+    position: revert;
+    margin-top: 200px;
+    margin-left: 300px;
+}
+.er{
+    color: aqua;
+}

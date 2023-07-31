@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="MAIN.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="row my-5">
+        <div class="col-md-8 offset-2">
+            <div class="carousel slide" id="mycarousel" data-ride="carousel" data-interval="1000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="rasimlar/1.jpg" alt="" width="700px" height="200px">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="rasimlar/2.jpg" alt="" width="700px" height="200px">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="rasimlar/3.jpg" alt="" width="700px" height="200px">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="rasimlar/4.png" alt="" width="700px" height="200px">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#mycarousel" class="carousel-control-prev" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a href="#mycarousel" class="carousel-control-next" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+            <div class="card-deck">
+                <div class="card">
+                    <div class="card-body">
+                                <a href="http://localhost:63342/PROEKT/INDEX.html?_ijt=ndkao7lpoajvv571r3ogfe7umj"><button type="button" class="btn btn-success" onclick="addTask()">Buyurtma qoshish</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card"       >
+                    <div class="card-body">
+                        <h4>Progress</h4>
+                        <ul class="list-unstyled">
+                            <li class="d-inline-block">Buyurtma:<span id="allTask">4</span></li>
+                            <li class="d-inline-block">Jami bajarilganlar:<span id="completeTask">0</span></li>
+                        </ul>
+                        <div class="progress my-3">
+                            <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" id="progress" style="width: 70%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card my-3">
+                    <div class="card-body">
+                        <ul class="list-group" id="list">
+                            <a href="http://localhost:63342/PROEKT/index6.html?_ijt=vqgj27p3sgc7vtp95sab7vhnrh"><button type="button" class="btn btn-danger">Tayyor <span style='font-size:10px;'>&#9989;</span></button></a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/jQuery.min.js"></script>
+<script src="js/src/popover.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
